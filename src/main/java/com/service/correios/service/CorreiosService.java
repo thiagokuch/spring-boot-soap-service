@@ -14,11 +14,11 @@ public class CorreiosService {
 	
 	@WebResult(name = "endereco")
 	public Endereco consultaPorCep(@WebParam(name = "cep") String cep) {
-	    return new Endereco("91370-140", "Av. Brasília", "Vila Ipiranga", "Porto Alegre");
+	    return new Endereco("91370-140", "Retorno CEP", "Vila Ipiranga", "Porto Alegre");
 	}
 	
 	@WebResult(name = "endereco")
 	public Endereco consultaPorRua(@WebParam(name = "rua") String rua) {
-	    return new Endereco("91370-140", "Av. Brasília", "Vila Ipiranha", "Porto Alegre");
+	    return new Endereco("91370-140", "Retorno RUA", "Vila Ipiranga", "Porto Alegre");
 	}
 }
